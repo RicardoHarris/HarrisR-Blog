@@ -3,15 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/form.php</file>
             <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/create-db.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/footer.php</file>
             <file>file:/C:/xampp/htdocs/HarrisR-Blog/model/config.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/model/database.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/navagation.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/header.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/index.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/post.php</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/model/Database.php</file>
             <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/create-post.php</file>
         </group>
     </open-files>
