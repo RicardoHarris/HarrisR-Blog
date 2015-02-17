@@ -60,9 +60,9 @@ class Database {
         if(!$query){
             $this->error = $this->connection->error;
         }
-
+        
         $this->closeConnection();
-
+        
         return $query;
     }
 
