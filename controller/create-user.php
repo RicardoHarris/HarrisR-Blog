@@ -3,7 +3,7 @@
     
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-    $password = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
+    $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
     
     $salt = "$5$" . "rounds=9001$" . uniqid(mt_rand(), true) . "$";
     

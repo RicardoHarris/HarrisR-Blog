@@ -16,10 +16,10 @@
             echo "<p>Login Successful!</p>";
         }
         else {
-            echo "<p>Invalid username/password</p>";
+            echo "<p>Invalid username/password(1)</p>";
         }
     }
     else {
-       echo "<p>Invalid username/password</p>";
+       echo "<p>Invalid username/password(2)</p>";
     }
     //Checks if something is stored in the query
