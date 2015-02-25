@@ -12,10 +12,13 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/login-user.php</file>
             <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/create-user.php</file>
-            <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/read-posts.php</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/register-form.php</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/login-form.php</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/view/header.php</file>
             <file>file:/C:/xampp/htdocs/HarrisR-Blog/css/style.css</file>
+            <file>file:/C:/xampp/htdocs/HarrisR-Blog/controller/create-post.php</file>
         </group>
     </open-files>
 </project-private>
