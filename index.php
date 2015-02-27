@@ -9,4 +9,5 @@
         //Makes the navigation and create-db pages inaccessable to anyone not logged in
         require_once(__DIR__ . "/controller/read-posts.php");
         require_once(__DIR__ . "/view/footer.php");
+        //This page accesses all other neccessary pages for the site to function and be accessed
     ?>

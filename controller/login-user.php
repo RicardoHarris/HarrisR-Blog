@@ -22,4 +22,4 @@
     else {
        echo "<p>Invalid username/password(2)</p>";
     }
-    //Checks if something is stored in the query
+        //If there is only one of these users active and the pasword is correct the user is taken to the index if not they are notified of an invalid username/password

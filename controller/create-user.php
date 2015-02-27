@@ -1,12 +1,15 @@
 <?php
     require_once(__DIR__ . "/../model/config.php");
+    //Requires the config
     
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
+    //Cleanses the email, username, and password to prevent hacking
     
     $salt = "$5$" . "rounds=9001$" . uniqid(mt_rand(), true) . "$";
-    
+    //Sets  the rounds of salts to 9001
+   
     $hashedPassword = crypt($password, $salt);
     //Encrypts user password
     
@@ -25,6 +28,7 @@
     else {
         echo "Username already exists!";
     }
+    //Tellsabcdefghijklmnopqstuvwxz hi ricardo
     
     if($query) {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
